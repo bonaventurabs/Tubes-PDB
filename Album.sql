@@ -8,6 +8,7 @@ create table Album (
     REFERENCES Artist(Artist_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
+insert into Album (Album_ID, Album_Title, YearofRelease, Artist_ID) values (5000, 'Kenangan', 2018, 1000);
 insert into Album (Album_ID, Album_Title, YearofRelease, Artist_ID) values (5001, '÷ (Deluxe)', 2017, 1001);
 insert into Album (Album_ID, Album_Title, YearofRelease, Artist_ID) values (5002, '+', 2011, 1001);
 insert into Album (Album_ID, Album_Title, YearofRelease, Artist_ID) values (5003, 'x (Deluxe Edition)', 2014, 1001);

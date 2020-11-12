@@ -1,0 +1,111 @@
+CREATE TABLE Follow_Artist (
+	Spotify_username VARCHAR(16) NOT NULL,
+	Artist_ID INT NOT NULL,
+	PRIMARY KEY (Spotify_username, Artist_ID),
+	CONSTRAINT FK_user_data_follow_artist FOREIGN KEY (Spotify_username) REFERENCES User_Data(Spotify_username)
+	ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT FK_artist_follow_artist FOREIGN KEY (Artist_ID)
+	REFERENCES Artist(Artist_ID)
+	ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('ccroyser3q', 1054);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cworthy2g', 1005);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bkenneway68', 1094);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sbaggaley40', 1002);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('zhawkswood2v', 1069);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('psiney2i', 1034);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('farkle7s', 1061);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jliddiatt19', 1010);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bcitrine1u', 1031);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('rmarzele7x', 1055);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('etombleson2w', 1062);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('azwicker6c', 1034);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('tdrakes8', 1088);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cmccheyne28', 1067);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cjervoise2q', 1046);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jdalrymple2y', 1064);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cpelchatk', 1072);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('lbramelt8o', 1046);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('rguyet77', 1009);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('fpechard47', 1074);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('mgothup3l', 1004);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('aboise7b', 1086);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('fsemrad1k', 1083);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('ytrobe8q', 1029);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('dlamberto2k', 1049);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sdaud1g', 1003);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('vlorie6m', 1050);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('rcoginp', 1027);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cbrombell7z', 1048);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('hells60', 1035);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sdaud1g', 1042);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sdomokos3t', 1065);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('agossop63', 1083);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('kstaten6k', 1008);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('ycahalan54', 1041);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jfullard81', 1059);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('medelston56', 1090);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('janersen5j', 1029);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('glain1a', 1056);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jdreus8c', 1046);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jobrien1q', 1073);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('irapson74', 1018);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cbonifacio4y', 1044);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('gshilleto3x', 1004);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bnation4t', 1089);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jvardy8m', 1075);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('nreoch8a', 1082);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('fantecki1d', 1077);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('pvousden1o', 1009);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('gfairbairn7p', 1008);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('lskipsea5i', 1076);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('boverstreetm', 1044);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jkingcote1v', 1017);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cdetheridge33', 1006);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('kstealy6h', 1069);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('mdougharty49', 1100);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('ytrobe8q', 1057);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('mturl5l', 1005);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('tprobyn1y', 1092);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bhuckster4m', 1069);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('rrickell3n', 1045);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('mkrzysztofiak3j', 1058);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('kfazackerley7r', 1099);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('vpietersma7w', 1037);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('janersen5j', 1026);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('astobbie5r', 1025);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('tmitchelson5w', 1091);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('larnholtz1e', 1059);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jmacdearmont76', 1016);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cedson7q', 1038);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cmitchelson10', 1085);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('statersale1n', 1033);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('tallot16', 1076);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('lhindhaugh46', 1057);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('cguise4w', 1095);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('gpanas6', 1061);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('succelli7f', 1074);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bnation4t', 1012);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('farkle7s', 1093);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sdymott6j', 1028);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('etombleson2w', 1067);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('fharg6s', 1068);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('bkenneway68', 1030);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('kfazackerley7r', 1022);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('ckobelt8j', 1098);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sfishbie67', 1020);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sgate6q', 1000);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('mtabord5p', 1060);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('rmarzele7x', 1096);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('dbogue64', 1063);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('clillicrap70', 1034);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('swindibank11', 1091);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('dklasing51', 1087);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('goddyg', 1016);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('dbunney2x', 1060);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sdomokos3t', 1100);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('pfranck1i', 1005);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('jfullard81', 1056);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('kurvoy2p', 1001);
+insert into Follow_Artist (Spotify_username, Artist_ID) values ('sbrogini5q', 1096);

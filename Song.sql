@@ -6,10 +6,11 @@ create table Song (
 	DateofRelease DATE NOT NULL,
 	Album_ID INT,
 	PRIMARY KEY (Song_ID),
-	CONSTRAINT FK_AlbumID FOREIGN KEY (Album_ID)
-    REFERENCES Album(Album_ID)
+	CONSTRAINT FK_Song_AlbumID FOREIGN KEY (Album_ID)
+    	REFERENCES Album(Album_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
+insert into Song (Song_ID, Song_Title, Duration, Genre, DateofRelease, Album_ID) values (3000, 'Kangen Kamu', '00:03:20', 'Pop', '2018-09-23', 5000);
 insert into Song (Song_ID, Song_Title, Duration, Genre, DateofRelease, Album_ID) values (3001, 'The A Team', '00:03:16', 'Acoustic', '2011-08-12', 5002);
 insert into Song (Song_ID, Song_Title, Duration, Genre, DateofRelease, Album_ID) values (3002, 'Drunk', '00:03:03', 'Acoustic', '2011-07-30', 5002);
 insert into Song (Song_ID, Song_Title, Duration, Genre, DateofRelease, Album_ID) values (3003, 'Grade 8', '00:03:00', 'Pop', '2011-08-23', 5002);

@@ -1,0 +1,111 @@
+CREATE TABLE Produces_Podcast (
+	Podcast_ID int NOT NULL,
+	Artist_ID int NOT NULL,
+	PRIMARY KEY (Podcast_ID, Artist_ID),
+	CONSTRAINT FK_PodcastID FOREIGN KEY (Podcast_ID) REFERENCES Podcast(Podcast_ID)
+	ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT FK_ArtistID FOREIGN KEY (Artist_ID)
+	REFERENCES Artist(Artist_ID)
+	ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (1, '1079');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (2, '1046');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (3, '1055');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (4, '1079');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (5, '1068');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (6, '1040');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (7, '1099');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (8, '1095');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (9, '1047');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (10, '1018');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (11, '1053');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (12, '1098');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (13, '1005');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (14, '1049');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (15, '1052');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (16, '1033');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (17, '1082');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (18, '1054');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (19, '1063');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (20, '1039');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (21, '1098');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (22, '1012');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (23, '1015');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (24, '1030');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (25, '1004');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (26, '1045');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (27, '1069');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (28, '1073');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (29, '1080');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (30, '1096');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (31, '1020');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (32, '1057');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (33, '1020');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (34, '');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (35, '1005');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (36, '1045');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (37, '1006');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (38, '1076');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (39, '1059');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (40, '1081');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (41, '1053');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (42, '1026');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (43, '1040');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (44, '1018');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (45, '1039');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (46, '1031');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (47, '1035');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (48, '1004');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (49, '1043');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (50, '1032');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (51, '1027');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (52, '1058');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (53, '1093');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (54, '1010');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (55, '1099');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (56, '1082');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (57, '1042');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (58, '1084');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (59, '1035');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (60, '1040');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (61, '1067');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (62, '1088');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (63, '1053');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (64, '1022');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (65, '1062');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (66, '1030');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (67, '1011');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (68, '1057');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (69, '1053');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (70, '1056');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (71, '1061');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (72, '1048');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (73, '1044');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (74, '1025');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (75, '1019');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (76, '1056');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (77, '1100');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (78, '1069');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (79, '');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (80, '1079');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (81, '1017');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (82, '1097');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (83, '1074');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (84, '1002');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (85, '1069');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (86, '1077');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (87, '1076');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (88, '1056');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (89, '1018');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (90, '1060');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (91, '1020');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (92, '1048');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (93, '1095');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (94, '1012');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (95, '1096');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (96, '1035');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (97, '1050');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (98, '1004');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (99, '1068');
+insert into Produces_Podcast (Podcast_ID, Artist_ID) values (100, '1095');

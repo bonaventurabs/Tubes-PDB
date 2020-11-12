@@ -2,10 +2,12 @@ create table Song_Language (
 	Song_ID INT,
 	Language VARCHAR(50) NOT NULL,
 	PRIMARY KEY (Song_ID,Language),
-	CONSTRAINT FK_SongID FOREIGN KEY (Song_ID)
-    REFERENCES Song(Song_ID)
+	CONSTRAINT FK_SongLanguage_SongID FOREIGN KEY (Song_ID)
+    	REFERENCES Song(Song_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
+insert into Song_Language (Song_ID, Language) values (3000, 'English');
+insert into Song_Language (Song_ID, Language) values (3000, 'Indonesian');
 insert into Song_Language (Song_ID, Language) values (3001, 'English');
 insert into Song_Language (Song_ID, Language) values (3001, 'Spanish');
 insert into Song_Language (Song_ID, Language) values (3002, 'English');

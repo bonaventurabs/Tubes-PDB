@@ -4,7 +4,7 @@ create table Album (
 	YearofRelease YEAR NOT NULL,
 	Artist_ID INT,
 	PRIMARY KEY (Album_ID),
-	CONSTRAINT FK_ArtistID FOREIGN KEY (Artist_ID)
+	CONSTRAINT FK_Album_ArtistID FOREIGN KEY (Artist_ID)
     	REFERENCES Artist(Artist_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );

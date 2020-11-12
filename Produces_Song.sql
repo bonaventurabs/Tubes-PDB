@@ -2,11 +2,12 @@ create table Produces_Song (
 	Song_ID INT,
 	Artist_ID INT,
 	PRIMARY KEY (Song_ID,Artist_ID),
-	CONSTRAINT FK_SongID FOREIGN KEY (Song_ID) REFERENCES Song(Song_ID) 
+	CONSTRAINT FK_ProducesSong_SongID FOREIGN KEY (Song_ID) REFERENCES Song(Song_ID) 
 	ON DELETE RESTRICT ON UPDATE CASCADE,
-	CONSTRAINT FK_ArtistID FOREIGN KEY (Artist_ID) REFERENCES Artist(Artist_ID)
+	CONSTRAINT FK_ProducesSong_ArtistID FOREIGN KEY (Artist_ID) REFERENCES Artist(Artist_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
+insert into Produces_Song (Song_ID, Artist_ID) values (3000, 1000);
 insert into Produces_Song (Song_ID, Artist_ID) values (3001, 1001);
 insert into Produces_Song (Song_ID, Artist_ID) values (3002, 1001);
 insert into Produces_Song (Song_ID, Artist_ID) values (3003, 1001);

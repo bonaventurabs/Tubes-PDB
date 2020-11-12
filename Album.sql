@@ -5,7 +5,7 @@ create table Album (
 	Artist_ID INT,
 	PRIMARY KEY (Album_ID),
 	CONSTRAINT FK_ArtistID FOREIGN KEY (Artist_ID)
-    REFERENCES Artist(Artist_ID)
+    	REFERENCES Artist(Artist_ID)
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
 insert into Album (Album_ID, Album_Title, YearofRelease, Artist_ID) values (5000, 'Kenangan', 2018, 1000);

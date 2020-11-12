@@ -4,7 +4,8 @@ create table Payments (
 	Type VARCHAR(50),
 	Card_Number VARCHAR(50),
 	Card_Expiry DATE,
-	Creation_Date DATE
+	Creation_Date DATE,
+	FOREIGN KEY(Spotify_Username) REFERENCES User_Data(Spotify_Username)
 );
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('bmardall0', 1001, 'diners-club-carte-blanche', '30272820570967', '2023-07-18', '2020-11-07');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('kmcgloughlin1', 1002, 'jcb', '3549013361940088', '2022-09-25', '2020-05-04');
@@ -328,4 +329,4 @@ insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Ex
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('dvedstra8w', 1320, 'americanexpress', '374288232879667', '2024-05-24', '2020-02-20');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('jcuff8x', 1321, 'instapayment', '6375409274907739', '2023-04-19', '2020-11-29');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('gminihan8y', 1322, 'visa', '4041594000493663', '2024-02-16', '2020-05-15');
-insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('', 1323, 'instapayment', '6383525661371906', '2023-07-11', '2020-11-16');
+

@@ -329,6 +329,6 @@ insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('dvedstra8w', 'Nicoli Advani', 'nadvani8v@gizmodo.com', 'Indonesia', '1999-04-17', 'Female');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('jcuff8x', 'Archaimbaud Burnand', 'aburnand8w@wikispaces.com', 'Portugal', '1997-04-22', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('gminihan8y', 'Nadya Alvarez', 'nalvarez8x@va.gov', 'Poland', '1987-06-06', 'Female');
-insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('fernaldi21', 'Fernaldi Gideon', 'ion@gmail.com', 'Indoensia', '2000-06-06', 'Male');
+insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('fernaldi21', 'Fernaldi Gideon', 'ion@gmail.com', 'Indonesia', '2000-06-06', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('TuanYon', 'Tunas Anang Yonis', 'tuanyon@yahoo.com', 'Thailand', '1990-06-06', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('dimas30', 'Dimas Bagas Ono', 'dimas30@yahoo.com', 'Indonesia', '1999-06-06', 'Male');

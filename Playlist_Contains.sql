@@ -1,0 +1,111 @@
+CREATE TABLE Playlist_Contains (
+	Playlist_ID int NOT NULL,
+	Song_ID int NOT NULL,
+	PRIMARY KEY (Playlist_ID, Song_ID),
+	CONSTRAINT FK_playlist_playlist_contains FOREIGN KEY (Playlist_ID) REFERENCES Playlist(Playlist_ID)
+	ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT FK_song_playlist_containt FOREIGN KEY (Song_ID)
+	REFERENCES Song(Song_ID)
+	ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (1, '3112');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (2, '3165');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (3, '3091');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (4, '3168');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (5, '3101');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (6, '3085');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (7, '3093');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (8, '3126');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (9, '3157');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (10, '3105');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (11, '3122');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (12, '3054');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (13, '3172');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (14, '3113');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (15, '3019');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (16, '3111');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (17, '3096');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (18, '3072');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (19, '3041');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (20, '3117');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (21, '3142');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (22, '3113');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (23, '3158');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (24, '3072');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (25, '3062');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (26, '3181');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (27, '3016');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (28, '3055');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (29, '3103');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (30, '3139');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (31, '3171');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (32, '3012');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (33, '3142');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (34, '3077');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (35, '3100');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (36, '3000');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (37, '3058');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (38, '3045');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (39, '3024');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (40, '3030');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (41, '3138');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (42, '3000');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (43, '3186');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (44, '3008');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (45, '3160');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (46, '3181');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (47, '3186');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (48, '3101');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (49, '3012');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (50, '3190');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (51, '3168');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (52, '3143');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (53, '3023');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (54, '3177');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (55, '3158');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (56, '3053');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (57, '3077');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (58, '3039');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (59, '3063');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (60, '3005');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (61, '3127');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (62, '3148');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (63, '3167');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (64, '3109');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (65, '3032');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (66, '3164');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (67, '3131');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (68, '3160');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (69, '3155');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (70, '3137');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (71, '3012');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (72, '3058');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (73, '3121');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (74, '3118');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (75, '3093');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (76, '3068');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (77, '3002');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (78, '3073');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (79, '3068');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (80, '3039');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (81, '3167');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (82, '3135');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (83, '3182');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (84, '3085');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (85, '3003');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (86, '3105');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (87, '3020');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (88, '3100');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (89, '3120');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (90, '3169');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (91, '3145');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (92, '3113');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (93, '3149');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (94, '3048');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (95, '3074');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (96, '3162');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (97, '3128');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (98, '3026');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (99, '3137');
+insert into Playlist_Contains (Playlist_ID, Song_ID) values (100, '3034');

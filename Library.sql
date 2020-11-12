@@ -327,4 +327,7 @@ insert into Library (Spotify_username, Song_ID, Track_number) values ('lcavnor8v
 insert into Library (Spotify_username, Song_ID, Track_number) values ('dvedstra8w', '3127', 320);
 insert into Library (Spotify_username, Song_ID, Track_number) values ('jcuff8x', '3128', 321);
 insert into Library (Spotify_username, Song_ID, Track_number) values ('gminihan8y', '3129', 322);
+insert into Library (Spotify_username, Song_ID, Track_number) values ('fernaldi21', '3100', 324);
+insert into Library (Spotify_username, Song_ID, Track_number) values ('TuanYon', '3099', 325);
+insert into Library (Spotify_username, Song_ID, Track_number) values ('dimas30', '3110', 326);
 

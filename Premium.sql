@@ -8,6 +8,9 @@ CREATE TABLE Premium (
 	ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
+insert into Premium (Spotify_username, date_join, duration) values ('fernaldi21', '2020-01-29', 162);
+insert into Premium (Spotify_username, date_join, duration) values ('TuanYon', '2020-01-28', 162);
+insert into Premium (Spotify_username, date_join, duration) values ('dimas30', '2020-01-27', 162);
 insert into Premium (Spotify_username, date_join, duration) values ('bmardall0', '2020-05-09', 41);
 insert into Premium (Spotify_username, date_join, duration) values ('kmcgloughlin1', '2020-05-28', 252);
 insert into Premium (Spotify_username, date_join, duration) values ('odudbridge2', '2020-03-24', 83);
@@ -330,4 +333,3 @@ insert into Premium (Spotify_username, date_join, duration) values ('lcavnor8v',
 insert into Premium (Spotify_username, date_join, duration) values ('dvedstra8w', '2019-12-17', 275);
 insert into Premium (Spotify_username, date_join, duration) values ('jcuff8x', '2020-03-04', 20);
 insert into Premium (Spotify_username, date_join, duration) values ('gminihan8y', '2020-08-18', 29);
-insert into Premium (Spotify_username, date_join, duration) values ('fernaldi21', '2020-01-29', 162);

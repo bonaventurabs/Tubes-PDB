@@ -5,6 +5,7 @@ create table Artist (
 	DateofRegister DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	PRIMARY KEY (Artist_ID)
 );
+insert into Artist (Artist_ID, Artist_Name, Year_Active, DateofRegister) values (1000, 'Angel Wene', 2017, '2020-11-08');
 insert into Artist (Artist_ID, Artist_Name, Year_Active, DateofRegister) values (1001, 'Ed Sheeran', 2005, '2020-09-28');
 insert into Artist (Artist_ID, Artist_Name, Year_Active, DateofRegister) values (1002, 'Ardhito Pramono', 2017, '2020-11-08');
 insert into Artist (Artist_ID, Artist_Name, Year_Active, DateofRegister) values (1003, 'The Chainsmokers', 2009, '2017-01-13');

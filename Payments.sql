@@ -5,6 +5,7 @@ create table Payments (
 	Card_Number VARCHAR(50),
 	Card_Expiry DATE,
 	Creation_Date DATE
+	FOREIGN KEY(Spotify_username) REFERENCES User_data(Spotify_username)
 );
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('bmardall0', 8001, 'switch', '564182238091282286', '2022-09-10', '2020-06-13');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('kmcgloughlin1', 8002, 'jcb', '3574847263020558', '2022-08-14', '2020-06-29');

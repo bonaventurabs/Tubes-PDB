@@ -4,7 +4,7 @@ create table User_Data (
 	Email_address VARCHAR(50),
 	Country VARCHAR(50),
 	Date_of_Birth DATE,
-	Gender VARCHAR(50)
+	Gender VARCHAR(50),
 	PRIMARY KEY(Spotify_username)
 );
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('bmardall0', 'Cleavland Kaser', 'ckaser0@ucla.edu', 'Japan', '1994-08-19', 'Male');
@@ -330,6 +330,6 @@ insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('dvedstra8w', 'Jasen Beardmore', 'jbeardmore8w@godaddy.com', 'Japan', '1999-04-27', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('jcuff8x', 'Brooks Lanchbury', 'blanchbury8x@github.com', 'Angola', '1994-02-07', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('gminihan8y', 'Timmie Indruch', 'tindruch8y@patch.com', 'Peru', '1981-04-01', 'Female');
-insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('fernaldi21', 'Bev Loweth', 'bloweth8z@1688.com', 'Czech Republic', '1994-09-25', 'Male');
-insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('TuanYon', 'Wilek Rowler', 'wrowler90@wsj.com', 'Czech Republic', '1996-12-23', 'Male');
-insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('dimas30', 'Auberon Tellwright', 'atellwright91@jalbum.net', 'Malaysia', '1992-12-27', 'Male');
+insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('fernaldi21', 'Fernaldi Gideon', 'fer@gmail.com', 'Indonesia', '1994-09-25', 'Male');
+insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('TuanYon', 'Tunas Anang Yonis', 'wrowler90@wsj.com', 'Thailand', '1996-12-23', 'Male');
+insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('dimas30', 'Dimas Bagas Ono', 'dims@jalbum.net', 'Indonesia', '1992-12-27', 'Male');

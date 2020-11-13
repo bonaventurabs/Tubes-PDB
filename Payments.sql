@@ -4,8 +4,8 @@ create table Payments (
 	Type VARCHAR(50),
 	Card_Number VARCHAR(50),
 	Card_Expiry DATE,
-	Creation_Date DATE
-	FOREIGN KEY(Spotify_username) REFERENCES User_data(Spotify_username)
+	Creation_Date DATE,
+	FOREIGN KEY(Spotify_username) REFERENCES User_Data(Spotify_username)
 );
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('bmardall0', 8001, 'switch', '564182238091282286', '2022-09-10', '2020-06-13');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('kmcgloughlin1', 8002, 'jcb', '3574847263020558', '2022-08-14', '2020-06-29');
@@ -320,7 +320,6 @@ insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Ex
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('hbattie8m', 8311, 'bankcard', '5602217111395902', '2022-12-01', '2020-04-23');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('wmerryfield8n', 8312, 'solo', '676723072797740794', '2022-06-01', '2020-10-28');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('tborghese8o', 8313, 'visa-electron', '4844710337046938', '2022-07-24', '2020-04-29');
-insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('fernaldi21', 8314, 'maestro', '50189595648648084', '2023-07-25', '2020-05-17');
+insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('fernaldi21', 8314, 'maestro', '50189595648648084', '2023-07-25', '2020-06-26');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('TuanYon', 8315, 'mastercard', '5100138199606613', '2024-05-10', '2020-10-29');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('dimas30', 8316, 'laser', '670977380671220163', '2022-02-08', '2020-02-18');
-insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('fernaldi21', 8317, 'maestro', '50189595648648084', '2023-07-25', '2020-06-26');

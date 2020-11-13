@@ -5,9 +5,7 @@ create table User_Data (
 	Country VARCHAR(50),
 	Date_of_Birth DATE,
 	Gender VARCHAR(50),
-	PRIMARY KEY(Spotify_username),
-	ON DELETE RESTRICT ON UPDATE CASCADE
-
+	PRIMARY KEY(Spotify_username)
 );
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('bmardall0', 'Cleavland Kaser', 'ckaser0@ucla.edu', 'Japan', '1994-08-19', 'Male');
 insert into User_Data (Spotify_username, Real_name, Email_address, Country, Date_of_Birth, Gender) values ('kmcgloughlin1', 'Ash Pitbladdo', 'apitbladdo1@tinypic.com', 'Brazil', '1988-12-29', 'Male');

@@ -1,12 +1,12 @@
 CREATE TABLE Student (
-	Spotify_username VARCHAR(255) NOT NULL,
+	Spotify_username VARCHAR(16) NOT NULL,
 	first_name VARCHAR(255) NOT NULL,
 	last_name VARCHAR(255) NOT NULL,
 	email_atschool VARCHAR(255) NOT NULL,
 	country_school VARCHAR(255) NOT NULL,
 	name_school VARCHAR(255) NOT NULL,
 	PRIMARY KEY (Spotify_username),
-	CONSTRAINT FK_spotify_username_student FOREIGN KEY Spotify_username
+	CONSTRAINT FK_spotify_username_student FOREIGN KEY (Spotify_username)
 	REFERENCES User_Data(Spotify_username)
 );
 

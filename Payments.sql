@@ -6,7 +6,7 @@ create table Payments (
 	Card_Expiry DATE,
 	Creation_Date DATE,
 	PRIMARY KEY (Spotify_username,Payment_Code),
-	CONSTRAINT FK_spotify_username_payments FOREIGN KEY(Spotify_username) REFERENCES User_Data(Spotify_username)
+	CONSTRAINT FK_spotify_username_payments FOREIGN KEY (Spotify_username) REFERENCES User_Data(Spotify_username)
 );
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('bmardall0', 8001, 'switch', '564182238091282286', '2022-09-10', '2020-06-13');
 insert into Payments (Spotify_username, Payment_Code, Type, Card_Number, Card_Expiry, Creation_Date) values ('kmcgloughlin1', 8002, 'jcb', '3574847263020558', '2022-08-14', '2020-06-29');

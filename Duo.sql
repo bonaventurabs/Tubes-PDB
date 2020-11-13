@@ -1,8 +1,8 @@
 CREATE TABLE Duo (
-	Spotify_username VARCHAR(255) NOT NULL,
+	Spotify_username VARCHAR(16) NOT NULL,
 	name_duo VARCHAR (255) NOT NULL,
 	PRIMARY KEY (Spotify_username),
-	CONSTRAINT FK_spotify_username_duo FOREIGN KEY Spotify_username
+	CONSTRAINT FK_spotify_username_duo FOREIGN KEY (Spotify_username)
 	REFERENCES User_Data(Spotify_username)
 );
 

@@ -2,7 +2,7 @@ create table Library (
 	Spotify_username VARCHAR(16),
 	Track_number INT,
 	Song_ID INT,
-	PRIMARY KEY(Spotify_username,Song_ID),
+	PRIMARY KEY(Spotify_username,Track_number,Song_ID),
 	CONSTRAINT FK_spotify_username_library FOREIGN KEY (Spotify_username) REFERENCES User_Data(Spotify_username),
 	CONSTRAINT FK_song_id_library FOREIGN KEY (Song_ID) REFERENCES Song(Song_ID)
 );

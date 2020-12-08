@@ -1,6 +1,6 @@
 # Tubes-PDB
-Tugas Besar Pengenalan Basis Data\n
-How to Merge: (`run query`)
+Tugas Besar Pengenalan Basis Data
+##**How to Merge:** (`run query`)
 ```
 1. Artist
 2. Song
